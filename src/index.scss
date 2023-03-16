@@ -1,0 +1,15 @@
+@import './styles/reset.scss';
+
+:root {
+  --backgroun-color: linear-gradient(180deg, #23053C, #5A00A4);
+  --text-color: #d4ffff;
+}
+
+body {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+  color: var(--text-color);
+
+  background-image: var(--backgroun-color);
+}
+

@@ -1,0 +1,18 @@
+.login {
+  display: grid;
+  grid-template-columns: auto auto;
+
+  justify-content: center;
+
+  &__link {
+    margin: auto;
+    padding: 5px 10px;
+
+    white-space: nowrap;
+
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: inherit;
+  }
+}

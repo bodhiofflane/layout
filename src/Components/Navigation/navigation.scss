@@ -1,0 +1,17 @@
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+
+  color: var(--text-color);
+
+  &__link {
+    margin: auto;
+    padding: 5px 10px;
+
+    white-space: nowrap;
+
+    font-size: 18px;
+    text-decoration: none;
+    color: inherit;
+  }
+}
