@@ -1,0 +1,33 @@
+.btn {
+  min-width: 100px;
+  height: 30px;
+
+  border: none;
+  border-radius: 5px;
+
+  font-family: var(--second-font);
+  font-size: 18px;
+
+  color: var(--text-color);
+
+  cursor: pointer;
+
+  transition: box-shadow 0.2s;
+
+  &__primary {
+    background: #ff2c65;
+
+    &:hover {
+      box-shadow: 1px 1px 10px #ff2c65;
+    }
+  }
+
+  &__secondary {
+    background-color: inherit;
+    border: 1px solid var(--text-color);
+
+    &:hover {
+      box-shadow: 5px 5px 10px var(--text-color);
+    }
+  }
+}

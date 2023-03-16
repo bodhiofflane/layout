@@ -3,11 +3,13 @@
 :root {
   --backgroun-color: linear-gradient(180deg, #23053C, #5A00A4);
   --text-color: #d4ffff;
+  --main-font: 'Kanit', sans-serif;
+  --second-font: 'Montserrat', sans-serif;
 }
 
 body {
-  font-family: 'Kanit', sans-serif;
-  font-weight: 300;
+  font-family: var(--main-font);
+  font-weight: 400;
   color: var(--text-color);
 
   background-image: var(--backgroun-color);

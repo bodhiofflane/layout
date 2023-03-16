@@ -4,15 +4,16 @@ import Header from './StaticLayout/Header/Header';
 import Navigation from './Components/Navigation/Navigation';
 
 import './App.scss';
+import Button from './Components/Button/Button';
 
 function App() {
   return (
     <div className="wrapper">
-
-      <Header/>
+      <Header />
 
       <main className="main">
-        <h2>main</h2>
+        <Button appearense="primary">Click me!</Button>
+        <Button appearense="secondary">Click me!</Button>
       </main>
       <footer className="app-footer">
         <Navigation />
