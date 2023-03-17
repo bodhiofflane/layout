@@ -5,6 +5,7 @@ import Navigation from './Components/Navigation/Navigation';
 
 import './App.scss';
 import Button from './Components/Button/Button';
+import MainPage from './Pages/MainPage/MainPage';
 
 function App() {
   return (
@@ -12,9 +13,9 @@ function App() {
       <Header />
 
       <main className="main">
-        <Button appearense="primary">Click me!</Button>
-        <Button appearense="secondary">Click me!</Button>
+        <MainPage/>
       </main>
+
       <footer className="app-footer">
         <Navigation />
       </footer>

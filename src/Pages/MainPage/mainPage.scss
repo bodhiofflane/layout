@@ -1,0 +1,13 @@
+.main-page {
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__anime-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 10px;
+
+    margin-bottom: 30px;
+  }
+}
